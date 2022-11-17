@@ -105,9 +105,9 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
  * Return: 1 is it is or 0 if not
  */
 int binary_tree_is_heap(const binary_tree_t *tree)
-
 {
 	int bval;
+
 	if (tree == NULL)
 	{
 		return (0);
